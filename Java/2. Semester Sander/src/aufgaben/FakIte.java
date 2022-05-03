@@ -1,6 +1,6 @@
 package aufgaben;
 
-public class FakultätIte {
+public class FakIte {
 	private static long erg = 1;
 	
 	private static long fak(long x) {

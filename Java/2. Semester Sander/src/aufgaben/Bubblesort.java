@@ -1,6 +1,6 @@
 package aufgaben;
 
-public class BubbleSort {
+public class Bubblesort {
 
 	private int[] sort(int[] zahlen) {
 		int[] ergebnis = zahlen;

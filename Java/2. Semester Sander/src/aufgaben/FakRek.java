@@ -1,6 +1,6 @@
 package aufgaben;
 
-public class FakultätRek {
+public class FakRek {
 	public static long fak(long x) {
 		if (x > 1) {
 			return (x * fak(x - 1));
