@@ -13,6 +13,7 @@ public class DirEinf {
 			}
 			daten[j] = v;
 		}
+		//Ergebnis ausgeben
 		System.out.println(java.util.Arrays.toString(daten));
 	}
 }
