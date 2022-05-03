@@ -41,11 +41,7 @@ public class Bubblesort {
 
 	public static void main(String[] args) {
 		int[] zahlen = { 6, 8, 11, 3, 12, 4, 2, 1 };
-<<<<<<< HEAD
 		Bubblesort s1 = new Bubblesort();
-=======
-		BubbleSort s1 = new BubbleSort();
->>>>>>> 6a87d38fda8fe97f5afc9abb8a9402f313cf4c84
 		System.out.println(java.util.Arrays.toString(s1.sort(zahlen)));
 	}
 }
