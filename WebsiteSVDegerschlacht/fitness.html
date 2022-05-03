@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV Degerschlacht Fitnessabteilung</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/scriptFitness.js" async></script>
+  </head>
+  <body>
+    <header id="grid">
+      <h1 class="center">SV DEGERSCHLACHT</h1>
+      <a id="backlink" href="index.html"><img src="img/Logo.png" alt="Startseite" class="center">
+      </a>
+    </header>
+    
+    <nav id="navLeiste">
+      <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li class="dropdown"><a class="dropbtn" href="fußball.html">Fußballabteilung</a>
+        <div class="dropdown-content">
+          <a href="tabelle.html">Aktuelle Tabellen</a>
+          <a href="herren1.html">Herren 1</a>
+          <a href="herren2.html">Herren 2</a>
+        </div></li>
+        <li><a href="tennis.html">Tennisabteilung</a></li>
+        <li><a class="active" tabindex="0" aria-current="page">Fitnessabteilung</a></li>
+        <li style="float:right"><a href="formulare.html">Formulare</a></li>
+      </ul>
+    </nav>
+
+    <h2>Unser Angebot</h2>
+    <form id="fitnessTrainer" method="post" autocomplete="off">
+      <label>Was suchen sie?</label>
+      <select id="angebote">
+        <option value="0">bitte auswählen</option>
+        <option value="1">Eltern und Kinder</option>
+        <option value="2">Ganzkörper</option>
+        <option value="3">Super-Fitness</option>
+        <option value="4">Skigymnastik</option>
+        <option value="5">Freizeit-Mix</option>
+        <option value="6">Yoga</option>
+        <option value="7">Cardio</option>
+        <option value="8">Männer</option>
+      </select>
+      <button id="b4" type="button">Zurücksetzen</button>
+    </form>
+    
+    <div id="eltern" class="angebote">
+      <h2>Eltern und Kinder</h2>
+      <h3>Eltern-Kind Turnen ab 2 Jahre</h3>
+      <p>Mittwoch - 15:30 - 16:30 Uhr und 16:30 - 17:30 Uhr. <br>
+      Gemeinsam mit Mama oder Papa erkunden wir die Turnhalle. Gerätelandschaften sollen überwunden und erforscht werden. Rutschen, Kletter, Balancieren, Hüpfen und jede Menge Spaß.<br>
+      Übungsleiterin: Steffi Kizler </p>
+      <h3>Kinderturnen für Jungs und Mädels</h3>
+      <p>Donnerstag - 16:30 - 17:30 Uhr - Kindergartenalter <br>
+      Donnerstag - 17:30 - 18:30 Uhr - Grundschulalter <br>
+      Donnerstag - 18:30 - 19:30 Uhr - Spiel, Sport, Spaß ab 5. Klasse <br>
+      Das können wir schon ganz alleine! An Gerätelandschaften können wir uns austoben, unsere Grenzen austesten und die Koordination perfektionieren. <br>
+      Übungsleiterin: Ursel Krais</p>
+    </div>
+
+    <div id="ganzkoerper" class="angebote">
+      <h2>Ganzkörper</h2>
+      <h3>65+ aber fit</h3>
+      <p>Montag - 8:30 - 9:30 Uhr <br>
+      Dieser Kurs am Morgen bietet ein abwechslungsreiches und rückengerechtes Gymnastikprogramm. Spaß und Entspannung kommen nicht zu kurz. <br>
+      Für Frauen und Männer! <br>
+      Übungsleiterin: Heike Geckeler, Tel. 57 89 50</p>
+      <h3>Körper, Geist und Seele</h3>
+      <p>Dienstag - 19:30 - 20:30 Uhr <br>
+      Gesundheitssport auf Musik zur Erhaltung und Verbesserung der körperlichen und geistigen Leistungsfähigkeit sowie des allgemeinen Wohlbefindens. <br>
+      Übungsleiterin: Susanne Haid</p>
+    </div>
+
+    <div id="superFitness" class="angebote">
+      <h3>Super-Fitness</h3>
+      <p>Dienstag - 20:30 - 21:30 Uhr <br>
+      Schwerpunkte sind die Kräftigung von Beinmuskeln, Po, Rücken, Bauch und Oberarme auf Musik. Die Stunden beinhalten Step, Gymnastik, Pilates, Yoga, Qi-Gong, Dehnung und Entspannung. <br>
+      Übungsleiterin: Susanne Haid</p>
+    </div>
+
+    <div id="skigymnastik" class="angebote">
+      <h3>Skigymnastik</h3>
+      <p>Mittwoch - 19:00 - 20:00 Uhr <br>
+      Der Winterurlaub steht vor der Tür. Wir machen Sie mit moderner Skigymnastik fit und sicher für die Piste. <br>
+      Für Frauen und Männer jeden Alters. <br>
+      Übungsleiterin: Leah Lill</p>
+    </div>
+
+    <div id="freizeit" class="angebote">
+      <h3>Freizeit-Mix</h3>
+      <p>Mittwoch - 20:00 - 21:30 Uhr <br>
+      Volleyball oder andere Ballsportarten als Freizeitsport. Für Anfänger und Wiedereinsteiger, die Freude am Ballspiel haben. Mit fachlicher Anleitung zur Verfeinerung der Spieltechnik. <br>
+      Für Frauen und Männer jeden Alters.</p>
+    </div>
+
+    <div id="yoga" class="angebote">
+      <h3>Yoga</h3>
+      <p>Montag - 10:00 - 11:15 Uhr <br>
+      Donnerstag - 18:30 - 19:30 Uhr <br>
+      Donnerstag - 19:45 - 20:45 Uhr <br>
+      Vereinszimmer in der Auchterthalle <br>
+      Yoga bringt Beweglichkeit, Kraft, Vitalität und innere Ausgeglichenheit durch gezielte Bewegungen, Atemarbeit und Entspannungsübungen <br>
+      Übungsleiterin: Anna Gehweiler <br>
+      Bitte nur mit Voranmeldung unter <a href="freizeit@sv-degerschlacht.de">Freizeit@SV-Degerschlacht.de</a></p>
+    </div>
+
+    <div id="cardio" class="angebote">
+      <h3>Cardio</h3>
+      <p>Donnerstag - 19:30 - 20:30 Uhr <br>
+      Herz-Kreislauftraining im Fettverbrennungsbereich, Kräftigung des ganzen Körpers durch abwechslungsreiches Kraft- und Ausdauertraining. <br>
+      Übungsleiterin: Anja Weber</p>
+    </div>
+
+    <div id="manner" class="angebote">
+      <h2>Männer</h2>
+      <h3>Jedermann Sport</h3>
+      <p>Montag - 20:00 - 22:00 Uhr <br>
+      Verschiedene Ballsportarten wie Hockey, Basketball oder Volleyball stehen bei uns im Mittelpunkt.</p>
+    </div>
+
+    <h3 style="color: black;">Banner</h3>
+
+    <footer class="rightF">
+        <a href="kontakt.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <p>© 2022 by Max Weiberle</p>
+      </footer>
+  
+    </body>
+  </html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SV Degerschlacht Kontakt</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/scriptKontakt.js" async></script>
+  </head>
+  <body>
+    <header id="grid">
+      <h1 class="center">SV DEGERSCHLACHT</h1>
+      <a id="backlink" href="index.html"><img src="img/Logo.png" alt="Startseite" class="center">
+      </a>
+    </header>
+    
+    <nav id="navLeiste">
+      <ul>
+        <li><a href="index.html">Startseite</a></li>
+        <li class="dropdown"><a class="dropbtn" href="fußball.html">Fußballabteilung</a>
+        <div class="dropdown-content">
+          <a href="tabelle.html">Aktuelle Tabellen</a>
+          <a href="herren1.html">Herren 1</a>
+          <a href="herren2.html">Herren 2</a>
+        </div></li>
+        <li><a href="tennis.html">Tennisabteilung</a></li>
+        <li><a href="fitness.html">Fitnessabteilung</a></li>
+        <li style="float:right"><a href="formulare.html">Formulare</a></li>
+      </ul>
+    </nav>
+
+    <h2>Kontakt</h2>
+    <p>Bei Fragen und Anregungen füllen Sie bitte das darunterliegende Formular aus. Wir werden so früh wie möglich darauf eingehen.</p>
+
+    <form id="kontakt" method="post" autocomplete="off">
+        <label for="name">Ihr Name</label><br>
+        <input id="name" required><br><br>
+        <p>Geben Sie Ihr Geschlecht an</p>
+        <fieldset>
+          <input type="radio" id="male" name="Geschlecht" value="Männlich">
+          <label for="male">Mann</label>
+          <input type="radio" id="female" name="Geschlecht" value="Weiblich">
+          <label for="female">Frau</label>
+          <input type="radio" id="divers" name="Geschlecht" value="Divers">
+          <label for="divers">Divers</label>
+          <input type="radio" id="noComment" name="Geschlecht" value="Keine Angabe" checked>
+          <label for="noComment">Keine Angabe</label>
+        </fieldset><br>
+        <label for="mail">Ihre E-Mail</label><br>
+        <input id="mail" type="email" required><br><br>
+        <label>Bitte geben Sie an auf was sich Ihre Anfrage bezieht (Mehrfachauswahl möglich)</label><br>
+        <select id="thema" multiple>
+          <option value="0">bitte auswählen</option>
+          <option value="1">Fußball</option>
+          <option value="2">Tennis</option>
+          <option value="3">Fitness</option>
+          <option value="4">Generelles</option>
+        </select><br><br>
+        <label>Nachricht</label><br>
+        <textarea rows="8" name="nachricht" required></textarea><br>
+        <button id="b5" type="submit">Absenden</button>
+    </form>
+    <p><br>
+    Oder kontaktieren sie uns direkt per <a href="mailto: Max-Weiberle@gmx.de">E-Mail.</a></p>
+
+    <h3 style="color: black;">Banner</h3>
+
+    <footer class="rightF">
+        <a href="kontakt.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <p>© 2022 by Max Weiberle</p>
+      </footer>
+  
+    </body>
+  </html>
