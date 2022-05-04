@@ -22,9 +22,9 @@ public class ButtonTest1 extends JFrame implements ActionListener {
 		c.setLayout(new FlowLayout());
 		
 		// Warum funktioniert die folgende Zeile meist nicht?
-//		Icon icon = new ImageIcon(getClass().getResource("cat.gif"));
+		// Icon icon = new ImageIcon(getClass().getResource("cat.gif"));
 		// Icon wird nicht gefunden!
-		// Lösung: Verzeichnispfad mitgeben, „\\“ als Trennzeichen
+		// Lï¿½sung: Verzeichnispfad mitgeben, ï¿½\\ï¿½ als Trennzeichen
 		// oder: Datei ins src-Verzeichnis des Projekts kopieren
 		
 		button = new JButton("Bitte klicken" /*, icon*/);

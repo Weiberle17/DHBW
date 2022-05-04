@@ -2,7 +2,7 @@ package aufgaben;
 
 public class Bubblesort {
 
-	private int[] sort(int[] zahlen) {
+	private int[] bsort(int[] zahlen) {
 		int[] ergebnis = zahlen;
 		int counter;
 		for (int j = 1; j < ergebnis.length; j++) {
@@ -42,6 +42,6 @@ public class Bubblesort {
 	public static void main(String[] args) {
 		int[] zahlen = { 6, 8, 11, 3, 12, 4, 2, 1 };
 		Bubblesort s1 = new Bubblesort();
-		System.out.println(java.util.Arrays.toString(s1.sort(zahlen)));
+		System.out.println(java.util.Arrays.toString(s1.bsort(zahlen)));
 	}
 }
