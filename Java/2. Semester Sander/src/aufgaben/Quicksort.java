@@ -2,7 +2,7 @@ package aufgaben;
 
 public class Quicksort {
 
-    private static void qsort(int[] daten, int links, int rechts) {
+    private void qsort(int[] daten, int links, int rechts) {
         if (links < rechts) {
             for (int i = links; i <= rechts; i++) {
                 int l = links;
@@ -23,7 +23,7 @@ public class Quicksort {
         }
     }
 
-    private static void swap (int[] liste, int pos1, int pos2) {
+    private void swap (int[] liste, int pos1, int pos2) {
         int l1 = liste[pos1];
         int l2 = liste[pos2];
         liste[pos1] = l2;
@@ -31,10 +31,11 @@ public class Quicksort {
     }
 
     public static void main(String[] args) {
+        Quicksort q1 = new Quicksort();
         int[] zahlen = {8, 4, 2, 5, 7, 9, 0, 3, 6};
         int n = zahlen.length;
 
-        qsort(zahlen, 0, n-1);
+        q1.qsort(zahlen, 0, n-1);
 
         for (int i = 0; i < zahlen.length; i++) {
             System.out.print(zahlen[i]);
