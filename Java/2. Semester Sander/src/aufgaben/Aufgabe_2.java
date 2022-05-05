@@ -31,7 +31,7 @@ public class Aufgabe_2 extends JFrame {
 		
 		p1.setBounds(10, 10, 450, 100);
 		c.add(p1);
-		System.out.println("Fenster ist jetzt offen.");
+		System.out.println("Window is now open.");
 		pack();
 		setSize(485, 160);
 		setLocation(500, 300);
@@ -40,7 +40,7 @@ public class Aufgabe_2 extends JFrame {
 
 	private class MyWindowListener extends WindowAdapter {
 		public void windowClosing(WindowEvent e) {
-			System.out.println("Fenster wurde geschlossen.");
+			System.out.println("Window was closed.");
 			System.exit(0);
 		}
 	}
@@ -49,12 +49,12 @@ public class Aufgabe_2 extends JFrame {
 		public void keyPressed(KeyEvent e) {
 			String k = KeyEvent.getKeyText(e.getKeyCode());
 			if (vokale.contains(k) == true) {
-				System.out.println("Juhuu " + k + " ist ein Vokal!");
+				System.out.println("Juhuu " + k + " is a vocal!");
 			} else if (e.getKeyCode() == KeyEvent.VK_ESCAPE) {
-				System.out.println("Fenster wurde geschlossen.");
+				System.out.println("Window was closed.");
 				System.exit(0);
 			} else {
-				System.out.println(k + " ist kein Vokal!");
+				System.out.println(k + " is no vocal!");
 			}
 		}
 	}
@@ -71,7 +71,7 @@ public class Aufgabe_2 extends JFrame {
 
 			g.setColor(Color.black);
 			g.setFont(new Font("Moonspaced", Font.BOLD, 25));
-			g.drawString("Drücken Sie eine beliebige Taste.", 25, 25);
+			g.drawString("Press any button.", 25, 25);
 		}
 	}
 

@@ -24,13 +24,13 @@ public class Aufgabe_6 extends JFrame implements ActionListener {
 		editor.add(text);
 		add(editor, BorderLayout.CENTER);
 		button = new JPanel();
-		copy = new JButton("Kopieren");
+		copy = new JButton("Copy");
 		copy.addActionListener(this);
 		button.add(copy);
-		paste = new JButton("Einfügen");
+		paste = new JButton("Paste");
 		paste.addActionListener(this);
 		button.add(paste);
-		cut = new JButton("Ausschneiden");
+		cut = new JButton("Cut");
 		cut.addActionListener(this);
 		button.add(cut);
 		add(button, BorderLayout.SOUTH);
@@ -44,13 +44,13 @@ public class Aufgabe_6 extends JFrame implements ActionListener {
 		Object obj = e.getSource();
 		if (obj == copy) {
 			text.copy();
-			System.out.println("Kopieren");
+			System.out.println("Copy");
 		} else if (obj == paste) {
 			text.paste();
-			System.out.println("Einfügen");
+			System.out.println("Paste");
 		} else {
 			text.cut();
-			System.out.println("Ausschneiden");
+			System.out.println("Cut");
 		}
 	}
 	
