@@ -2,7 +2,7 @@ package aufgaben;
 
 public class FibFolgeRek {
 
-	public static int fib(int i) {
+	private static int fib(int i) {
 		if (i > 1) {
 			return (fib(i - 1) + fib(i-2));
 		} else if (i == 1 ) {
